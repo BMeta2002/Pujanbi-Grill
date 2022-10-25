@@ -1,0 +1,90 @@
+*{
+font-family: "Times New Roman", Times, serif;
+    }
+
+
+/* Body */
+    
+body {
+    min-width: 800px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-image: url("images/home.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}  
+
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;   
+}
+  
+li > a{
+    float: right;
+    display: block;
+    color:  rgb(0, 0, 0);
+    padding: 6px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;                                                                                                                                                                                  
+    font-weight: bold;
+    font-family:sans-serif;
+      
+}
+  
+
+li a:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(152, 54, 54);
+    border-radius: 50px;
+   
+}
+
+
+
+/* Nav Bar */
+
+.navbar > h1 , h2 {
+    text-align: center;
+}  
+
+h1, h2 > a {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    animation: pulsate 0.5s ease-in-out infinite alternate;
+    
+}
+
+.PGrill{
+    text-align: center;
+}
+
+h1 {
+    color: rgb(152, 54, 54);
+    padding-top: 5%;
+    font-size: 280px;
+    margin-bottom: 0px;
+    font-size: 10em;
+}    
+
+h2 {
+    font-size: 25px;
+    padding-top: 5%;
+    font-weight: bold;   
+    text-decoration: none;
+}
+
+
+.link:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(152, 54, 54);
+    border-radius: 50px;
+ 
+}

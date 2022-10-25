@@ -1,0 +1,95 @@
+    /* Body */
+        
+    body {
+        min-width: 800px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        background-color: rgb(179, 179, 179);
+    }  
+    
+    
+    /* Nav bar */
+    ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;   
+    }
+      
+    li > a{
+        float: right;
+        display: block;
+        color:  rgb(0, 0, 0);
+        padding: 6px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: 10px;                                                                                                                                                                                  
+        font-weight: bold;
+        font-family:sans-serif;
+          
+    }
+      
+    
+    li a:hover {
+        color:rgb(255, 255, 255);
+        background-color: rgb(152, 54, 54);
+        border-radius: 50px;
+    }
+
+    /* Right side (SignUp)  */
+
+.Signin #info{
+    font-size: 1.5em;
+    color: black;
+}
+
+.Signin form{
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+
+}
+.Signin p{
+    font-size: 0.7em;
+    text-align: center;
+    padding: 10px;
+}
+
+.Signin input[type="text"]{
+    padding: 10px;
+    width: 80%;
+}
+
+.Signin input[type="date"]{
+    padding: 10px;
+    width: 50%;
+}
+
+.Signin input[type="age"]{
+    padding: 10px;
+    width: 100%;
+}
+
+.Signin input[type="email"]{
+    padding: 10px;
+    width: 80%;
+}
+
+/* Button Hover */
+.button{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: rgb(152, 54, 54);
+    color:rgb(0, 0, 0);
+}
+
+
+
